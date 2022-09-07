@@ -10,3 +10,4 @@ services:
       - "MYSQL_DATABASE=docker-db"
       - "MYSQL_USER=docker-user"
       - "MYSQL_PASSWORD=123456"
+      #tarea oculta infsencible en .env para que este oculto 

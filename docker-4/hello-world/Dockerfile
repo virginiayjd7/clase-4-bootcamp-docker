@@ -16,3 +16,5 @@ COPY . .
 EXPOSE 3000
 USER node
 CMD ["npm","start"]
+#docker build -t node_app:1.0.0 . (si es la misma ruta si nos -f la ruta)//para la costruccion
+#ocker run -it -p 3000:3000 node_app:1.0.0

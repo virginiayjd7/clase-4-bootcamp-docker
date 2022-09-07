@@ -1,10 +1,13 @@
 `docker-compose.yml``
 
 docker-compose build 
+docker compose build 
 
 docker-compose up 
+docker compose up
 
 docker-compose up -d
+docker compose up -d
 
 docker-compose start nombre_container
 

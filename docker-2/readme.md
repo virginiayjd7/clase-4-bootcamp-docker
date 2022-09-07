@@ -32,3 +32,5 @@ none
 
 docker network ls
 
+docker inspect fd63a814c024 
+docker inspect fd63a814c024 |grep bridge -C 5
